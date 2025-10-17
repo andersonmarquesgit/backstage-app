@@ -1,9 +1,9 @@
 global:
   postgresql:
     auth:
-      postgresPassword: "backstage"
-      username: "backstage"
-      password: "backstage"
+      postgresPassword: "${POSTGRES_PASSWORD}"
+      username: "${POSTGRES_USER}"
+      password: "${POSTGRES_PASSWORD}"
       database: "backstage"
 primary:
   name: primary
